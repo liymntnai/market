@@ -1,0 +1,102 @@
+.content{
+    display: flex;
+    margin-top:10px;
+    border: 1px solid rgba(200,200,200,0.1 );
+    box-shadow: 1px 1px 1px #aeaeae;
+    padding: 5px;
+}
+.other-category{
+    width: 220px;
+    background: antiquewhite;
+    border-radius:10px;
+    margin-left: 25px;
+    height: fit-content;
+}
+.other-category h1{
+    border-top-left-radius:10px;
+
+    border-top-right-radius:10px;    text-align: center;
+color: white;
+background-color: orangered;
+
+}
+.other-category a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    }
+    .other-category a:hover{
+        color: orangered;
+        transition: 0.2s;
+    }
+.description{
+    width: 900px;
+    margin-left: 10px;
+
+}
+
+.description .heading{
+background-color: #aeaeae;
+border-radius: 5px;
+width: 960px;
+display: flex;
+}
+.description .heading #filter{
+flex: 5;
+}
+
+.description .heading img{
+    width: 20px;
+    height: 15px;
+    margin: 5px;
+}
+
+.description .heading #price{flex: 1; margin-right: 15px;}
+
+.description .heading #location{ flex: 1; position:relative; left: 20px;  }
+
+
+
+.description .image-container{
+    padding-bottom: 10px;
+
+}
+
+.description .image-container{
+width: 1020px;
+}
+.description .image-container .image-box {
+    display: flex;
+    margin-bottom: 20px;
+}
+.description .image-container .image-box img{
+width: 100px;
+height: 100px;
+flex: 1;
+margin-top: 10px;
+margin-right: 10px;
+
+}
+.description .image-container .image-box div{
+flex: 4;
+margin-right: 50px;
+font-size: 16px;
+}
+.description .image-container .image-box .title{
+    font-weight: bolder;
+    font-size: 20px;
+}
+.description .image-container .image-box .price{
+    flex: 1;
+    font-weight: bolder;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: large;
+
+}
+.description .image-container .image-box .locality{
+    font-weight: bolder;
+    margin-left: 20px;
+    font-size: 100%;
+    flex: 1;
+}

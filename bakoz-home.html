@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="bakoz-home.css">
+<link rel="stylesheet" href="bakoz-content.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" 
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="bootstrap-4.6.2-dist/css/bootstrap.min.css">
+<script src="bootstrap-4.6.2-dist/js/bootstrap.bundle.js"></script>
+<script src="bootstrap-4.6.2-dist/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+    <!-- header section starts here -->
+<section class="container">
+<section class="header">
+    <div id="logo">Bazaar</div>
+     <div class="buy-sell-box">
+         <div class="box">
+           <img src="images/salary.png" alt="" class="logo-images">
+           <h4>Buy</h4>
+         </div>
+
+         <div class="box">
+           <img src="images/profits.png" alt=""class="logo-images">
+           <h4>Sell</h4>
+         </div>
+
+         <div class="box">
+           <img src="images/exchange (1).png" alt="" class="logo-images">
+           <h4>Exchange</h4>
+         </div>
+
+    </div>
+
+    <div class="sell-box"><a href="sell.html">advertise</a></div>
+
+
+
+</section>
+    <!-- header section ends here -->
+
+    <!-- menu section starts here -->
+   
+    <section class="menu">
+
+           <div class="looking-for-box">What are you looking for?:  <input  id="looking-for" type="text" name="what"></div>
+          
+           <form class="filter-search-box" method="post" action="" >
+            <fieldset>
+                <legend>Filter</legend>category
+             <select name="category" id="" aria-placeholder="Category">
+               <option value="Bus">PC</option>
+               <option value="Car">Smartphone</option>
+               <option value="Motorcycle">Electrical</option>
+               <option value="Computers">clothing</option>
+               <option value="Electrical">housing and renting</option>
+             </select> 
+            <div class="search-box">Town<input type="text" name="town"placeholder="Town"></div> 
+            <div class="search-box">Address<input type="text" name="address"placeholder="Address"></div> 
+            <div class="search-box">Price From<input type="number" name="start_price"placeholder=""></div>      
+            <div class="search-box">-to<input type="number" name="end_price"placeholder=""></div> 
+            <input type="submit" value="Submit" id="submit">  
+        </fieldset> 
+            
+            </form>
+    </section>
+
+       <!-- menu section ends here -->
+
+    <!-- content section starts here -->
+
+    <section class="category-list">
+      
+            <div class="box">
+                <div class="description">
+                  <a href="pc/bakoz-pc.html" class="title">PC</a><br>
+                  <a href="" class="subtitle">Desktop, </a>
+                  <a href="" class="subtitle">Laptop</a> ...
+                </div>
+               <div class="image">
+               <a href=""> <img src="images/laptop (1).png" alt="laptop-image"></a>
+               </div>
+              </div>
+    
+              <div class="box">
+                <div class="description">
+                  <a href="smartphone/bakoz-smartphone.html" class="title">Smartphone</a><br>
+                  <a href="" class="subtitle">Android, </a>
+                  <a href="" class="subtitle">Apple</a> ...
+              
+                </div>
+               <div class="image">
+               <a href=""> <img src="images/smartphone.png" alt="phone-image"></a>
+               </div>
+    
+              </div>
+    
+              <div class="box">
+                <div class="description">
+                  <a href="electrical/bakoz-electrical.html" class="title">Electrical</a><br>
+                  <a href="" class="subtitle">TV, </a>
+                  <a href="" class="subtitle">fridge</a> ...
+              
+                </div>
+               <div class="image">
+               <a href=""> <img src="images/classroom-pc.png" alt="Laptop-image"></a>
+               </div>
+    
+              </div>
+    
+              <div class="box">
+                <div class="description">
+                  <a href="cars/bakoz-car.html" class="title">cars</a><br>
+                  <a href="" class="subtitle">new, </a>
+                  <a href="" class="subtitle">second-hand</a> ...
+                </div>
+          
+               <div class="image">
+               <a href="cars/bakoz-car.html"> <img src="images/car.png" alt="car-image"></a>
+               </div>
+    
+              </div>
+    
+              <div class="box">
+                <div class="description">
+                  <a href="clothing/bakoz-clothing.html" class="title">clothing</a><br>
+                  <a href="" class="subtitle">shoes, </a>
+                  <a href="" class="subtitle">dresses</a> ...
+                </div>
+               <div class="image">
+               <a href=""> <img src="images/polo-shirt.png" alt="Laptop Omen"></a>
+               </div>
+              </div>
+    
+              <div class="box">
+                <div class="description">
+                  <a href="houses/bakoz-housing-renting.html" class="title">housing/renting</a><br>
+                  <a href="" class="subtitle">rooms, </a>
+                  <a href="" class="subtitle">appartments</a> ...
+                </div>
+               <div class="image">
+               <a href=""> <img src="images/home.png" alt="Laptop Omen"></a>
+               </div>
+    
+              </div>
+          
+    </section>
+        <!-- content section ends here -->
+</section>
+ </body>
+
+</html>

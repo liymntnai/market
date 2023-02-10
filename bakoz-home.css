@@ -1,0 +1,183 @@
+:root{
+    --brown: #ef2727aa;
+    --bgd-color:rgb(254,206,161);
+    --pink: #f07cc3;
+}
+body{
+  background-color: var(--bgd-color);
+}
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0;
+    text-decoration: none;
+    text-transform:capitalize;
+}
+.container{
+    margin: 0 auto;
+    width: 90%;
+}
+
+#logo{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 72px;
+    color: #f49014;
+    text-shadow: 5px 5px;
+    text-indent: 2px 2px;
+    margin: 0px 35px;
+}
+.buy-sell-box{
+    display: flex;
+    margin-left:25px;
+    padding: 0px 10px;
+}
+.buy-sell-box .box{
+   display: flex;
+    margin-right: 30px;
+}
+.box img{
+    width: 25px; height: 25px;
+}
+.box h3{
+    font-weight: medium;
+    margin-top: 2px;
+}
+.sell-box{
+    float: right;
+    margin-top: -70px;
+    margin-right: 50px;
+    background: #fa7a30;
+    border-radius: 10px;
+    color: white; 
+    padding: 5px 15px;
+    font-size: 24px;
+}
+
+.sell-box:hover{
+    transition: 0.6s;
+    background-color: #ad6d1f;
+    text-decoration: none;
+    color: white
+}
+.menu{
+    color:rgb(34, 61, 65);
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: var(--brown);
+    font-weight:bold;
+    font-size: large;
+    box-shadow: 0 0.5rem 0.5rem #999;
+}
+.menu .looking-for-box{
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+}
+select{
+    width: 130px;
+}
+#looking-for{
+border: 2px solid #f49014;
+width: 200px;
+}
+input[type="text"]{
+    width: 130px;
+    border-radius: 5px;
+    margin-right: 10px;
+    height:25px;
+    font-weight: 600;
+}
+input[type="number"]{
+    width:80px;
+    font-weight: 600;
+}
+.filter-search-box fieldset{
+border: 1px solid #dcdcdc;
+padding: 20px;
+font-weight: light;
+}
+.filter-search-box legend{
+background-color: #efefef;
+border: 1px solid #dcdcdc;
+padding: 5px 20px;
+text-align: left;
+color: black;
+}
+.filter-search-box fieldset, .search-box{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 16px;}
+.search-box{
+    margin: 2px 10px;
+    display: inline;
+    width: 32%;
+}
+#submit{
+    float: right;
+    background: #0d7e40;
+    border-radius: 10px;
+    color: #dcdcdc;
+    padding: 5px 10px;
+}
+#submit:hover{
+    transition: 0.6s;
+    background-color: #124428;
+
+}
+.category-list{
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 90%;
+    max-width: 960px;
+}
+/* .category-list { */
+
+/* } */
+.category-list .box{
+    text-align: center;
+    margin: 15px;
+    width: 260px;
+    padding: 20px 35px;
+    margin: 5px 10px 10px 0px;
+    /* flex: 1 1 10rem; */
+    border: 1px solid #999;
+    background-color: var(--bgd-color);
+}
+.category-list .box:hover{
+    background:antiquewhite
+} 
+.category-list .box .image:hover{
+transform: scale(1.1);
+}
+.box .description .title{
+    font-size: 24px;
+    font-weight: 800;
+    /* line-height: 3px; */
+    /* margin-bottom: 2px; */
+    text-align: center;
+    line-height: 0;
+
+}
+.box .description .subtitle, .box .description .title{
+    color: rgb(29, 29, 29);
+}
+.box .description .title:hover, .box .description .subtitle:hover{
+    color:orangered;
+}
+.content .box .description{
+    text-align: center;
+    font-size: 1.5rem;
+}
+.category-list .box .image{
+text-align: center;
+}
+.category-list .box .image img{
+width: 120px;
+height: 120px;
+}
+
+/* bazos-pc starts here*/
+
+/* bazos-pc ends here*/
